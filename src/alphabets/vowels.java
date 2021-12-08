@@ -5,11 +5,10 @@ import java.util.Scanner;
 public class vowels {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 		System.out.println("Enter an aplphabet ");
 		Scanner sc = new Scanner(System.in);
-		
-		//char letter = 'i';
+
 		char letter = sc.next().charAt(0);
 		switch (letter)
         {
@@ -19,16 +18,12 @@ public class vowels {
             case 'o':
             case 'u':
                 System.out.println(letter + " Letter is vowel");
-            break;
-       
+                break;
             default:
                 System.out.println(letter + " Letter is consonant");
-            break;
+                break;
 		}
-		    
-
 	}
-
 }
 			
 		
